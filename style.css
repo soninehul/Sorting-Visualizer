@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  nav {
+    background-color: rgb(54, 104, 13);
+    color: white;
+  }
+
+  nav .header .nav-heading {
+    text-align: center;
+    font-size: xxx-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  nav .header #array-create {
+    background-color: transparent;
+    font-size: x-large;
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    color: white;
+    margin-left: 40%;
+    padding: 5px;
+  }
+  
+  nav .header #array-create:hover {
+    cursor: pointer;
+    background-color: rgb(10, 80, 16);
+  }
+  
+  nav .header .algos{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  nav .header .algos button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    padding-left: 5%; 
+    border-radius: 4px;
+
+  }
+  
+  nav .header .algos button:hover {
+    background-color: rgb(10, 80, 16);
+    cursor: pointer;
+  }
+  
+  nav .header .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header .algos .butt_selected {
+    color: rgb(39, 3, 95);
+  }
+  
+  nav .header .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header .algos .butt_unselected:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+  }
+  
+    
+  section .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    padding: 5% 0%;
+  }
+  
+  section .array-inputs #array-size {
+    padding: 5% 10%;
+    margin-right: 20px;
+  }
+  
+  section .array-inputs #array-speed {
+    padding: 5% 0%;
+  }
+  section {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 30% 60% 10%;
+        grid-template-columns: 30% 60% 10%;
+  }
+  
+  section #Container1 {
+    padding: 20%;
+  }
+  
+  section #array_container {
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    margin-right: 20px;
+  }
+  
+  input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: grey;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: darkslategray;
+    margin-top: -4px;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: grey;
+}
+  .hide {
+    display: none;
+  }

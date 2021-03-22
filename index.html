@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="header">
+                <p class="nav-heading">Sorting visualizer</p>
+                <button id="array-create">Create New Array!</button>
+                <div class="algos">
+                    <button >Merge</button>
+                    <button >Bubble</button>
+                    <button >Insertion</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+
+        <div id="Container1">
+            <div class="array-inputs">
+                <p>Size of the Array:</p>
+                <input id="array-size" type="range" min=20 max=150 step=1 value=80>
+                <br/>
+                <p>Speed of the Algorithm:</p>
+                <input id="array-speed" type="range" min=1 max=5 step=1 value=4>
+            </div>
+        </div>
+
+        <div id="array_container"></div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script src="app.js"></script>   
+    <script src="visualizer.js"></script>  
+</body>
+</html>
